@@ -1,0 +1,144 @@
+html {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 1320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.how-it-container {
+    max-width: 1095px;
+    padding: 0 20px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: -80px;
+}
+
+
+.how-it-top {
+    margin-bottom: 80px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.box-rounds {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 780px;
+    top: 0;
+    margin-bottom: 67px;
+}
+
+.rounds {
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+    background-color: #FEFCF7;
+}
+
+.round {
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+    background-color: #fff;
+}
+
+.roundi {
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+    background-color: #FEFCF7;
+}
+
+.line {
+    position: absolute;
+    left: 20px;
+    top: 13px;
+    z-index: -1;
+    width: 745px;
+    height: 1px;
+    border: 1px solid #FDD6BA;
+    background-color: #FDD6BA;
+}
+
+.how-it-list {
+    display: flex;
+    margin-bottom: 79px;
+}
+
+.how-it-items {
+    max-width: 285px;
+    margin-right: 95px;
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    margin-bottom: 38px;
+}
+
+.how-it-items-title {
+    margin-bottom: 42px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.how-it-items-text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.blue-link {
+    padding: 15px 31px;
+    background: #0E8784;
+    border-radius: 6px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-bottom: 216px;
+}
+
+.blue-link:hover {
+    opacity: 0.8;
+}
